@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44a5ee5f-a838-455d-b741-b0896a1962fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-proj-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/BestMovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/Titanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/VoteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/bestMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/voteForTheBestMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaunit3/springmvc/SpringmvcApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/BatmanMovie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/BestMovieService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/HibernateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/SpringmvcApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/Titanic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/addMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/bestMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/voteForTheBestMovie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/javaunit3/springmvc/SpringmvcApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EJI7N4CQajAomzGrJGqGJL8Z6e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44a5ee5f-a838-455d-b741-b0896a1962fb" name="Changes" comment="" />
+      <created>1662307095462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662307095462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
