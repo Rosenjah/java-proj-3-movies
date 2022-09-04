@@ -5,53 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a5ee5f-a838-455d-b741-b0896a1962fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-proj-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/BestMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/MovieEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/Titanic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaunit3/springmvc/VoteEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/bestMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/voteForTheBestMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javaunit3/springmvc/SpringmvcApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/BatmanMovie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/BestMovieService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/HibernateConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/Movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/MovieEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/SpringmvcApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/javaunit3/springmvc/Titanic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/addMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/bestMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/voteForTheBestMovie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/javaunit3/springmvc/SpringmvcApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-proj-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-proj-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +18,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EJI7N4CQajAomzGrJGqGJL8Z6e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
