@@ -8,6 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 @Controller
@@ -26,6 +28,27 @@ public class MovieController {
     public String getBestMoviePage(Model model) {
 
         //model.addAttribute("BestMovie", bestMovieService.getBestMovie().getTitle());
+        Session dbSession = sessionFactory.getCurrentSession();;
+        dbSession.beginTransaction();
+        List<MovieEntity> movieList = dbSession.createQuery("FROM MovieEntity").list();
+        Collections.sort(movieList, Collections.reverseOrder());
+
+        //movieList.sort(Comparator.comparing(movieEntity -> movieEntity.getVotes().size()));
+
+        if (movieList != null && !movieList.isEmpty()) {
+            // sort movie list
+            // https://www.codebyamir.com/blog/sort-list-of-objects-by-field-java
+            MovieEntity movie = (MovieEntity) movieList.get(0);
+            model.addAttribute("bestMovie", movie.getTitle());
+            //get list of voters
+            model.addAttribute("bestVoters", movie.getVotes());
+
+        } else {
+            model.addAttribute("bestMovie", "::No Movie Is Available!!!");
+        }
+
+        dbSession.getTransaction().commit();
+
         return "bestMovie";
     }
 
@@ -34,19 +57,16 @@ public class MovieController {
 
         Session dbSession = sessionFactory.getCurrentSession();
         dbSession.beginTransaction();
-        List<MovieEntity> movieEntityList = dbSession.createQuery("from MovieEntity").list();
+        List<MovieEntity> movieList = dbSession.createQuery("FROM MovieEntity").list();
         dbSession.getTransaction().commit();
 
-        model.addAttribute("movies", movieEntityList);
+        model.addAttribute("movies", movieList);
 
         return "voteForBestMovie";
     }
 
     @RequestMapping("/voteForBestMovie")
-    public String voteForBestMovie(HttpServletRequest request, Model model) {
-
-        String movieTitle = request.getParameter("movieTitle");
-        model.addAttribute("BestMovieVote", movieTitle);
+    public String voteForBestMovie(HttpServletRequest request) {
 
         String voterName = request.getParameter("voterName");
         String movieId = request.getParameter("movieId");

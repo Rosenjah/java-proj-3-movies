@@ -65,4 +65,9 @@ public class MovieEntity {
         this.votes.add(vote);
     }
 
+    public List<VoteEntity> getVotes() {
+        return votes;
+    }
+
+
 }
