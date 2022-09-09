@@ -6,9 +6,15 @@
 </head>
 <body>
 <a href="/">Home</a>
-<p th:text="'Your favorite movie is: ' + ${BestMovieVote}" />
+<p th:text="'Your favorite movie is: ' + ${BestMovieVote}"/>
 <form action="voteForBestMovie" method="GET">
-    <p>Movie Title: <input type="text" name="movieTitle"/></p>
+    <p>Movie Title:
+        <select name="movieId">
+            <option value="0">Select</option>
+            <option th:each="movie : ${movies}" th:value="${movie.id}" th:text="${movie.title}"></option>
+        </select>
+    </p>
+    <p>Your Name: <input type="text" name="voterName"/></p>
     <p><input type="submit" value="Submit"/></p>
 </form>
 </body>

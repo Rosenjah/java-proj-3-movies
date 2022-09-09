@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -31,20 +32,27 @@ public class MovieController {
         Session dbSession = sessionFactory.getCurrentSession();;
         dbSession.beginTransaction();
         List<MovieEntity> movieList = dbSession.createQuery("FROM MovieEntity").list();
-        Collections.sort(movieList, Collections.reverseOrder());
+        movieList.sort(Comparator.comparing(movieEntity -> movieEntity.getVotes().size()));
 
-        //movieList.sort(Comparator.comparing(movieEntity -> movieEntity.getVotes().size()));
+        Integer movieListSize = movieList.size() - 1;
 
         if (movieList != null && !movieList.isEmpty()) {
             // sort movie list
             // https://www.codebyamir.com/blog/sort-list-of-objects-by-field-java
-            MovieEntity movie = (MovieEntity) movieList.get(0);
+            MovieEntity movie = (MovieEntity) movieList.get(movieListSize);
             model.addAttribute("bestMovie", movie.getTitle());
+
             //get list of voters
-            model.addAttribute("bestVoters", movie.getVotes());
+            List<String> bestVoters = new ArrayList<>();
+
+            for (VoteEntity vote: movie.getVotes()) {
+                bestVoters.add(vote.getVoterName());
+            }
+            model.addAttribute("bestVoters", String.join(", ", bestVoters));
 
         } else {
             model.addAttribute("bestMovie", "::No Movie Is Available!!!");
+            model.addAttribute("bestVoters", "::No Voters Are Available!!!");
         }
 
         dbSession.getTransaction().commit();

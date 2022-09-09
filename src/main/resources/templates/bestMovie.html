@@ -7,6 +7,6 @@
 <body>
 <a href="/">Home</a>
 <p th:text="'The best movie is: ' + ${bestMovie}" />
-<p th:each="bestVoter : ${bestVoters}" th:text="${bestVoter.voterName}" />
+<p th:text="'The best movie voters are: ' + ${bestVoters}" />
 </body>
 </html>
